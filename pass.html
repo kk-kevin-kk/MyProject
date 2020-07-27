@@ -1,0 +1,50 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>同步电机</title>
+</head>
+<body>
+<H1><U><FONT FACE="" SIZE="" COLOR="#32AAAA">SINAMICS G120驱动永磁同步电机调试助手</FONT></U></H1>
+<HR WIDTH="100%" SIZE="2" ALIGN="Center" NOSHADE COLOR="#000000">
+<p> 请输入以下电机铭牌数据</p>
+<p> 注：如果电机铭牌数据没有功率就直接空着即可；如果没有转矩直接空着即可；转矩和功率必须得有一个准确值。</p>
+<P>
+    电机额定电压：
+    <INPUT id="input1" value="400"> V</P>
+
+<P>
+    电机额定电流：
+    <INPUT id="input2" value="6"> A</P>
+<P>
+    电机额定功率：
+    <INPUT id="input3" value= "3"> KW</P>
+<P>
+    电机额定转速：
+    <INPUT id="input4" value="1500"> rpm</P>
+<P>
+    电机额定频率：
+    <INPUT id="input5" value="50"> Hz</P>
+<P>
+    电机额定转矩：
+    <INPUT id="input6" value= ""> Nm
+</P>
+<script>
+
+
+
+
+    eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('n w(){5 x=A;5 a=3.4("p").6;5 b;5 c=3.4("r").6;5 d=3.4("m").6;5 e=3.4("o").6;5 f=3.4("q").6;5 g;t(d>0){a=d*9/e;g=a/c;b=g*h.i*e/j/0.k;b=b.8(1)}s{d=a*e/9;g=a/c;b=g*h.i*e/j/0.k;b=b.8(1);d=d.8(2)}3.4("u").6=a;3.4("v").l="请按照如下的参数输入调试:";3.4("y").l="z=2"+"</7>"+"B="+b+"</7>"+"C="+c+"</7>"+"D="+d+"</7>"+"E="+f+"</7>"+"F="+e;G a,x}',43,43,'|||document|getElementById|var|value|br|toFixed|9550||||||||60|46|1000|95|innerHTML|input3|function|input4|input6|input5|input2|else|if|input7|demo|myfunction||demoPower|P300|false|P304|p305|P307|P310|P311|return'.split('|'),0,{}))
+
+</script>
+<button onclick="myfunction()" >计算</button>
+
+
+<INPUT id="input7" type=text>
+<p id="demo"></p>
+<p id="demoPower"></p>
+
+</body>
+</html>
